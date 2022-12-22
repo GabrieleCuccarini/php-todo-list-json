@@ -1,0 +1,26 @@
+[
+    {
+        "testo": "HTML",
+        "done": false
+    },
+    {
+        "testo": "CSS",
+        "done": false
+    },
+    {
+        "testo": "Javascript",
+        "done": false
+    },
+    {
+        "testo": "Responsive Rep",
+        "done": false
+    },
+    {
+        "testo": "VUE JS",
+        "done": false
+    },
+    {
+        "testo": "PHP",
+        "done": false
+    }
+]
