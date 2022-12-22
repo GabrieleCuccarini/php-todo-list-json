@@ -28,12 +28,15 @@ $tasksarray = json_decode($tasks, true);
         <div class="container mar-auto white small pad">
             <ul>
                 <!-- IL TASKS IN QUESTIONE VIENE DAL JS RIGA 7 -->
-                <li v-for="task in tasks">{{task.testo}}</li>
+                <li class="list-unstyled mt-2 px-4 d-flex justify-content-between align-items-center" v-for="task in tasks">
+                    <h4>{{task.testo}}</h4>
+                    <button class="btn btn-danger px-3 mb-2"><i class="fa-solid fa-trash"></i></button>
+                </li>
             </ul>
         </div>
         <div class="container d-flex justify-content-between mar-auto mt-2 py-2 px-0 small">
             <input class="white p-2" type="text" name="" id="" placeholder="Inserisci elemento...">
-            <button class="blue">Inserisci</button>
+            <button class="blue yellow">Inserisci</button>
         </div>
     </div>
 

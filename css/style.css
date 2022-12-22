@@ -22,14 +22,26 @@ h1 {
 }
 
 .pad {
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
-button {
+.yellow  {
     color: yellow;
     border: 1px solid yellow;
 }
 
 input {
     flex-grow: 1;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+li {
+    border-bottom: 1px solid lightgrey;
+
 }
